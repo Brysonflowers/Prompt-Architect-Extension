@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "PromptArchitect-Studio",
+  "version": "1.0.0",
+  "description": "AI Prompter Helper for advanced engineering.",
+  "icons": {
+    "48": "images/appimage.png",
+    "128": "images/appimage.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/appimage.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "contextMenus"]
+}
